@@ -1,19 +1,22 @@
-# Component Library Assignment
+# Abhi Tanwar's Component Library
 
-This is a reusable React component library built with **Create React App** and **Storybook**.
+Welcome to **Abhi Tanwar's UI Component Library** — a collection of reusable React components, built and optimized for production!
 
-## Getting Started
+This repository includes:
 
-### Prerequisites
-
-- Node.js (v16 or above recommended)
-- Docker (optional, for containerized setup)
+- A **React component library**
+- Integrated **Prettier**, **ESLint**, and **unit tests**
+- Automated checks via **Husky pre-commit hooks**
+- **GitHub Actions CI/CD pipeline** for code quality verification
+- A **Dockerized production build** served via **Nginx**
 
 ---
 
-### Local Development
+## Getting Started
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/atanwar-rrc/component-library-v2.git
+cd component-library-v2
+```
