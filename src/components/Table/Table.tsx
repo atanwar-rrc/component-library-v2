@@ -1,6 +1,6 @@
-import React from 'react';
-import { StyledTable, StyledTh, StyledTd, StyledTfoot } from './Table.styles';
-import { TableProps } from './Table.types';
+import React from "react";
+import { StyledTable, StyledTh, StyledTd, StyledTfoot } from "./Table.styles";
+import { TableProps } from "./Table.types";
 
 const Table: React.FC<TableProps> = ({ disabled, headers, data, footer }) => (
   <StyledTable disabled={disabled}>

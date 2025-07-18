@@ -1,6 +1,6 @@
 // src/components/Table/TableFooter.tsx
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledTfoot = styled.tfoot`
   background-color: #f9f9f9;

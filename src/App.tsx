@@ -1,7 +1,7 @@
-import React from 'react';
-import Button from './components/Button';
-import Label from './components/Label';
-import Card from './components/Card';
+import React from "react";
+import Button from "./components/Button";
+import Label from "./components/Label";
+import Card from "./components/Card";
 
 function App() {
   return (

@@ -7,12 +7,21 @@ interface DropdownProps {
   onChange: (value: string) => void;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({ value, options, disabled, onChange }) => (
+const Dropdown: React.FC<DropdownProps> = ({
+  value,
+  options,
+  disabled,
+  onChange,
+}) => (
   <select
     value={value}
     disabled={disabled}
     onChange={(e) => onChange(e.target.value)}
-    style={{ padding: "8px", borderRadius: "4px", cursor: disabled ? "not-allowed" : "pointer" }}
+    style={{
+      padding: "8px",
+      borderRadius: "4px",
+      cursor: disabled ? "not-allowed" : "pointer",
+    }}
   >
     {options.map((opt) => (
       <option key={opt} value={opt}>

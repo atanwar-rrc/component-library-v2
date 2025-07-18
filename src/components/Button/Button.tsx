@@ -6,7 +6,11 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ children, disabled = false, onClick }) => (
+const Button: React.FC<ButtonProps> = ({
+  children,
+  disabled = false,
+  onClick,
+}) => (
   <button
     disabled={disabled}
     style={{

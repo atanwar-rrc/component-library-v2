@@ -16,3 +16,4 @@ This is a reusable React component library built with **Create React App** and *
 1. **Install dependencies:**
    ```bash
    npm install
+   ```

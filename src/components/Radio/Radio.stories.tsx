@@ -14,7 +14,7 @@ export const Default: Story = {
     children: "Option 1",
     checked: false,
     disabled: false,
-  }
+  },
 };
 
 export const Checked: Story = {
@@ -22,7 +22,7 @@ export const Checked: Story = {
     children: "Checked Option",
     checked: true,
     disabled: false,
-  }
+  },
 };
 
 export const Disabled: Story = {
@@ -30,5 +30,5 @@ export const Disabled: Story = {
     children: "Disabled Option",
     checked: false,
     disabled: true,
-  }
+  },
 };

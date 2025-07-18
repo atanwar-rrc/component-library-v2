@@ -15,7 +15,7 @@ describe("RadioGroup", () => {
         options={options}
         value="option1"
         onChange={() => {}}
-      />
+      />,
     );
     expect(screen.getByLabelText("Option 1")).toBeInTheDocument();
     expect(screen.getByLabelText("Option 2")).toBeInTheDocument();
@@ -29,7 +29,7 @@ describe("RadioGroup", () => {
         options={options}
         value="option1"
         onChange={handleChange}
-      />
+      />,
     );
     fireEvent.click(screen.getByLabelText("Option 2"));
     expect(handleChange).toHaveBeenCalledWith("option2");

@@ -7,7 +7,12 @@ export interface HerolmageProps {
   children?: React.ReactNode;
 }
 
-const Herolmage: React.FC<HerolmageProps> = ({ title, subtitle, disabled = false, children }) => (
+const Herolmage: React.FC<HerolmageProps> = ({
+  title,
+  subtitle,
+  disabled = false,
+  children,
+}) => (
   <section
     style={{
       background: "#f0f0f0",

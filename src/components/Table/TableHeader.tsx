@@ -1,6 +1,6 @@
 // src/components/Table/TableHeader.tsx
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledThead = styled.thead`
   background-color: #f4f4f4;

@@ -8,7 +8,13 @@ export interface ImgProps {
   disabled?: boolean;
 }
 
-const Img: React.FC<ImgProps> = ({ src, alt, width, height, disabled = false }) => (
+const Img: React.FC<ImgProps> = ({
+  src,
+  alt,
+  width,
+  height,
+  disabled = false,
+}) => (
   <img
     src={src}
     alt={alt}

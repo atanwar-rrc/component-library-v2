@@ -10,10 +10,13 @@ describe("Card", () => {
   });
 
   it("applies disabled styles", () => {
-    render(<Card title="Disabled Card" disabled>Disabled Card</Card>);
+    render(
+      <Card title="Disabled Card" disabled>
+        Disabled Card
+      </Card>,
+    );
     const card = screen.getByText("Disabled Card").parentElement;
     expect(card).toHaveStyle("opacity: 0.6");
     expect(card).toHaveStyle("cursor: not-allowed");
   });
 });
-
